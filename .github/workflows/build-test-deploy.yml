@@ -58,7 +58,7 @@ jobs:
           node-version: '20.x'
 
       - run: npm install
-      - run: npm build
+      - run: npm run build
       - name: upload artifacts
         uses: actions/upload-pages-artifact@v3
         with:
